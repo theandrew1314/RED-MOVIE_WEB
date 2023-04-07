@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto ruleta de casino micropython</title> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+
+    <h1 class="titulo_grande">PROYECTO PELICULAS EN HTML
+</h1>
+    <hr>
+
+    <nav>
+        <button class="btn-menu-propiedades" onclick= "darclic()" >Menú</button>
+        <a href="#" class="nav-propiedades desaparece">Inicio</a>
+        <a href="#" class="nav-propiedades desaparece">Peliculas</a>
+        <a href="#" class="nav-propiedades desaparece">¿Cómo se hizo?</a>
+        <a href="#" class="nav-propiedades desaparece">Contacto</a>
+    </nav>
+    <hr>
+    
+    <h2 class="titulo-planes">DISFRUTA DE NUESTROS PLANES</h2>
+    <section class="container-plans flex text-center">
+        
+        <div class="columna">
+            <h2>Plan uno</h2>
+            <p class="precio">$24.900</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsum, dicta autem et magnam fugiat quasi ipsam consequatur, dolor maiores nemo quae facere iste hic labore possimus officia ducimus expedita?</p>
+            <hr>
+
+            <ul> 
+                <li>Elemento 1</li> 
+                <li>Elemento 2</li> 
+                <li>Elemento 3</li> 
+                <li>Elemento 4</li> 
+            </ul>
+            <hr>
+            <a href="#" class="btn-precio">Comprar</a>
+        </div>
+
+        <div class="columna">
+            <h2>Plan dos</h2>
+            <p class="precio">$29.900</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsum, dicta autem et magnam fugiat quasi ipsam consequatur, dolor maiores nemo quae facere iste hic labore possimus officia ducimus expedita?</p>
+            <hr>
+
+            <ul> 
+                <li>Elemento 1</li> 
+                <li>Elemento 2</li> 
+                <li>Elemento 3</li> 
+                <li>Elemento 4</li> 
+            </ul>
+            <hr>
+            <a href="#" class="btn-precio">Comprar</a>
+        </div>
+
+        <div class="columna">
+            <h2>Plan tres</h2>
+            <p class="precio">$35.900</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsum, dicta autem et magnam fugiat quasi ipsam consequatur, dolor maiores nemo quae facere iste hic labore possimus officia ducimus expedita?</p>
+            <hr>
+
+            <ul> 
+                <li>Elemento 1</li> 
+                <li>Elemento 2</li> 
+                <li>Elemento 3</li> 
+                <li>Elemento 4</li> 
+            </ul>
+            <hr>
+            <a href="#" class="btn-precio">Comprar</a>
+        </div>
+
+        <div class="columna">
+            <h2>Plan cuatro</h2>
+            <p class="precio">$40.900</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsum, dicta autem et magnam fugiat quasi ipsam consequatur, dolor maiores nemo quae facere iste hic labore possimus officia ducimus expedita?</p>
+            <hr>
+
+            <ul> 
+                <li>Elemento 1</li> 
+                <li>Elemento 2</li> 
+                <li>Elemento 3</li> 
+                <li>Elemento 4</li> 
+            </ul>
+            <hr>
+            <a href="#" class="btn-precio">Comprar</a>
+        </div>
+
+        <div class="separator"></div>
+        
+        <img class="gif-movie" src="gif movie.gif" alt="No se pudo cargar correctamente la imagen">
+    </section>
+
+    <script>
+    function darclic(){
+        var ancla = document.getElementsByClassName('nav-propiedades');
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle('desaparece');
+            }
+    }
+
+        
+    </script>
+</body>
+</html>

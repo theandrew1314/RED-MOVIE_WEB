@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+ul{
+    color: white;
+}
+
+.titulo-planes{
+    color: rgb(0, 255, 255);
+    margin: 4% 12%;
+    font-size: 30px;
+}
+
+
+
+.titulo_grande{
+    color: rgb(250, 0, 0);
+    font-size: 300%;
+    margin: 2% 3%;
+}
+.separator{
+    margin: 25%;
+}
+
+/* texto de las columnas en rojo */
+.gif-movie{
+    width: 150%;
+    height: 150%;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.container-plans{
+    margin: 4%;
+    width: 20%;
+}
+
+.flex{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.columna{
+    background-color: rgb(17, 17, 17);
+    color: rgb(211, 211, 211);
+    border: 1px solid rgb(211, 211, 211);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 8px 10px 20px rgb(82, 81, 81);
+}
+
+.precio{
+    font-size: 35px;
+    color: aqua;
+}
+
+.btn-precio{
+    background-color: rgb(32, 63, 109);
+    display: block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+
+.btn-precio:hover{
+    background-color: rgb(21, 46, 85);
+}
+
+.btn-precio:active{
+    background-color: rgb(6, 25, 54);
+}
+
+/* propiedades de la barra de navegacion */
+
+nav{
+    background-color: rgb(0, 0, 0);
+    padding: 6px;
+    display: flex;
+    justify-content:space-evenly;
+    margin: 1%;
+}
+
+.nav-propiedades{
+    display: inline-block;
+    background-color: rgb(189, 10, 10);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.nav-propiedades:hover{
+    
+    background-color: rgb(143, 10, 10);
+}
+
+.nav-propiedades:active{
+    background-color: rgb(116, 7, 7);;
+}
+
+
+/* propiedades del boton menu desplegable */
+
+.btn-menu-propiedades{
+    background-color: rgb(151, 30, 30);
+    color: white;
+    padding: 10px 30px;
+    border: 2px solid #030a2c;
+    display: none;
+}
+
+
+/* media query en celulares y tablets no mayor a 600px */
+@media (max-width: 600px){
+
+    /* barra de navegacion */
+    nav{
+        flex-direction: column;
+    }
+    .nav-propiedades{
+        margin: 2px 0;
+    }
+    .desaparece{
+        display: none;
+    }
+
+    /* boton menu */
+
+    .btn-menu-propiedades{
+        display: inline-block;
+    }
+
+}
